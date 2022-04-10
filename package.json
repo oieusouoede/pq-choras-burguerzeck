@@ -1,0 +1,39 @@
+{
+	"name": "pq-choras-burguerzeck",
+	"version": "0.0.1",
+	"description": "Projeto de rede social com o Node.js",
+	"main": "index.js",
+	"scripts": {
+		"lint": "eslint . --ext .ts",
+		"run": "nodemon index.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/oieusouoede/pq-choras-burguerzeck.git"
+	},
+	"author": "Éde",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/oieusouoede/pq-choras-burguerzeck/issues"
+	},
+	"homepage": "https://github.com/oieusouoede/pq-choras-burguerzeck#readme",
+	"devDependencies": {
+		"@types/cors": "^2.8.12",
+		"@types/dotenv": "^8.2.0",
+		"@types/express": "^4.17.13",
+		"@types/helmet": "^4.0.0",
+		"@types/node": "^17.0.23",
+		"@typescript-eslint/eslint-plugin": "^5.18.0",
+		"@typescript-eslint/parser": "^5.18.0",
+		"eslint": "^8.13.0",
+		"nodemon": "^2.0.15",
+		"typescript": "^4.6.3"
+	},
+	"dependencies": {
+		"cors": "^2.8.5",
+		"dotenv": "^16.0.0",
+		"express": "^4.17.3",
+		"helmet": "^5.0.2"
+	}
+}
